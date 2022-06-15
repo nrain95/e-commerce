@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logo.png">
+    <title>Hot Gadgets</title>
+  </head>
+  <body>
+    <!--NavBar-->
+    <div id="home" class="container mb-md-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light d-flex justify-content-between  white-bg"
+      >
+        <a class="navbar-brand" href="#home"
+          ><img class="w-75" src="images/logo.png" alt="logo"
+        /></a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#home"
+                >Home<span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link" href="#smartphone">Products</a>
+              <a class="nav-item nav-link" href="#About Us">About Us</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--carousel-->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+          <div data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></div>
+          <div data-target="#carouselExampleIndicators" data-slide-to="1"></div>
+          <div data-target="#carouselExampleIndicators" data-slide-to="2"></div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row  d-flex align-items-center">
+                  <div class="col-md-6">
+                    <h4>MacBook Pro</h4>
+                    <p class="text-justify text-muted"><small>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</small></p>
+                    <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row  d-flex align-items-center">
+                <div class="col-md-6">
+                  <h4>Google Mini Speaker</h4>
+                    <p class="text-justify text-muted"><small>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</small></p>
+                    <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+                </div>
+                <div class="col-md-6">
+                  <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row  d-flex align-items-center">
+                <div class="col-md-6">
+                  <h4>JBL Speaker</h4>
+                    <p class="text-justify text-muted"><small>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</small></p>
+                    <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+                </div>
+                <div class="col-md-6">
+                  <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    <!--Smartphone-->
+
+    <div id="smartphone" class="container">
+      <div class="pb-4 d-flex justify-content-between align-items-center">
+        <h4>Smartphone</h4>
+        <small class="text-warning">See All</small>
+      </div>
+      <div class="card-deck">
+        <div class="card text-center">
+          <div class="pt-4 d-flex justify-content-center">
+            <img class="card-img-top w-75" src="images/phone/phone-1.png" alt="xiaomi">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Redmi Note 8</h5>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+          </div>
+          <div class="card-footer d-flex flex-column align-items-center">
+            <h5>$699</h5>
+            <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="pt-4 d-flex justify-content-center">
+            <img class="card-img-top w-75" src="images/phone/phone-2.png" alt="iphone">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">iPhone 11 Pro</h5>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+          </div>
+          <div class="card-footer d-flex flex-column align-items-center">
+            <h5>$999</h5>
+            <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="pt-4 d-flex justify-content-center">
+            <img class="card-img-top w-75" src="images/phone/phone-3.png" alt="samsung">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Galaxy Note10+</h5>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.Just making it a bit different.</p>
+          </div>
+          <div class="card-footer d-flex flex-column align-items-center">
+            <h5>$799</h5>
+            <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Laptop-->
+
+    <div id="laptop" class="container">
+      <div class="pt-4 pb-4 d-flex justify-content-between align-items-center">
+        <h4>Laptop</h4>
+        <small class="text-warning">See All</small>
+      </div>
+      <div class="card-deck">
+        <div class="card text-center">
+          <div class="pt-4 d-flex justify-content-center">
+            <img class="card-img-top w-75" src="images/laptop/product-1.png" alt="asus">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Vivobook</h5>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+          </div>
+          <div class="card-footer d-flex flex-column align-items-center">
+            <h5>$1599</h5>
+            <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="pt-4 d-flex justify-content-center">
+            <img class="card-img-top w-75" src="images/laptop/product-2.png" alt="razer">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Razer Blade 15</h5>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+          </div>
+          <div class="card-footer d-flex flex-column align-items-center">
+            <h5>$2799</h5>
+            <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="pt-4 d-flex justify-content-center">
+            <img class="card-img-top w-75" src="images/laptop/product-3.png" alt="xiaomi">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Mi Notepro</h5>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.Just making it a bit different.</p>
+          </div>
+          <div class="card-footer d-flex flex-column align-items-center">
+            <h5>$999</h5>
+            <button type="button" class="btn btn-dark">Buy Now <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--About Us-->
+
+    <div id="About Us" class="container">
+    
+        <div class=" pt-5 pb-5 d-flex flex-column justify-content-center align-items-center">
+          <h4>Categories</h4>
+          <div class="underline-block"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 d-flex flex-column justify-content-center">
+            <div id="bag-cat" class="card mb-3 d-flex align-items-center">
+              <img class="card-img-top w-50 pt-4" src="images/Categories/bag.png" alt="Bag">
+              <div class="card-body">
+                <h5 class="card-title">Bag</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex flex-column justify-content-center">
+            <div id="perfume-cat" class="card mb-3 d-flex align-items-center">
+              <img class="card-img-top w-50 pt-4" src="images/Categories/perfume.png" alt="perfume">
+              <div class="card-body">
+                <h5 class="card-title">Beauty</h5>
+              </div>
+            </div>
+            <div id="shoe-cat" class="card mb-3 d-flex align-items-center">
+              <img class="card-img-top w-50 pt-4" src="images/Categories/shoe.png" alt="shoe">
+              <div class="card-body">
+                <h5 class="card-title">Shoes</h5>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="images/Categories/pale-order.png" alt="order">
+          </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+
+    
+    <div class="footer-block text-white text-center">
+      <a type="button" href="#home" class="btn btn-secondary btn-lg btn-block shadow-none rounded-0">Scroll to top</a>
+
+      <div id="subscribe" class="mt-4 mb-4">
+        <h4>Subscribe Now</h4>
+        <h6 class="text-muted">Get updates on sales, specials and more</h6>
+        <form>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+          <input type="submit" class="submit-btn">
+        </form>
+        
+      </div>
+
+      <footer>
+        <small class="text-muted">© Maruf Muktadir Khan</small>
+      </footer>
+    </div>
+
+
+    <!--Bootstrap JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
